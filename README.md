@@ -1,7 +1,7 @@
 # Project_3-Montana_uni-
 A/B Testing: Improving UX Experience for Montana University
 
-All code details in Project_code_Montana_library_scipy file
+### All code details in Project_code_Montana_library_scipy file
 
 During the sample period from April 3, 2013 – April 10, 2013, which included 10,819 visits to the library homepage, there was a large disparity among the three main content categories. The click-through rate for Find was 35%, Request was 6%, and Interact was 2%. This observation prompted a question: “Why are Interact clicks so low?” At this time the content beneath Interact included links to Reference Services, Instruction Services, Subject Liaisons, Writing Center, About, Staff Directory, Library FAQ, Give to the Library, and Floor Maps. The library’s web committee surmised that introducing this category with the abstract term “Interact” added difficulty and confusion for users trying to navigate into the library website homepage. Four different category titles were then proposed as variations to be tested: Connect, Learn, Help, and Services.
 
@@ -15,7 +15,8 @@ Does Interact accurately describe the content that you find after selecting Inte
 
 Which word best describes this category? Interact? Connect? Learn? Help? Services?
 
-*Summary of work done so far:
+
+### Summary of work done so far:
 
 1.Data Reading
 
@@ -26,20 +27,22 @@ Which word best describes this category? Interact? Connect? Learn? Help? Service
 4.Scipy approach(used Chi-square Test )
 
 
-*The hypotheses to be tested in the experiment are the following:
 
-Null Hypothesis: all variants have the same CTR.
+### The hypotheses to be tested in the experiment are the following:
 
-Alternative Hypothesis: there is a difference in the CTR for the different variants.
+1.Null Hypothesis: all variants have the same CTR.
+
+2.Alternative Hypothesis: there is a difference in the CTR for the different variants.
 
 
-*How do we decide who's the best?
 
--Click-through rate (CTR) for the homepage.
+### How do we decide who's the best?
 
--Drop-off rate for the category pages.
+1.Click-through rate (CTR) for the homepage.
 
--Homepage-return rate for the category pages.
+2.Drop-off rate for the category pages.
+
+3.Homepage-return rate for the category pages.
 
 
 
