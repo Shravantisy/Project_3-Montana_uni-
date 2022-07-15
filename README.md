@@ -8,20 +8,38 @@ During the sample period from April 3, 2013 – April 10, 2013, which included 1
 In an A/B Test, one of the tasks that usually belongs to the UX team is to perform user research and develop a new version of the website element that needs to be tested. The team had conversations with a few students and asked the following questions:
 
 Have you previously clicked on Interact?
+
 What content do you expect to see after you select Interact?
+
 Does Interact accurately describe the content that you find after selecting Interact?
+
 Which word best describes this category? Interact? Connect? Learn? Help? Services?
 
-Summary of work done so far:
+*Summary of work done so far:
 
 1.Data Reading
+
 2.Click Through rate(Defined as clicks / visits: how many visitors to the landing page clicked on the section we are interested in?)
+
 3.Contingency table (A contingency table shows the frequency distribution of the variables.)
+
 4.Scipy approach(used Chi-square Test )
 
-How do we decide who's the best?
+
+*The hypotheses to be tested in the experiment are the following:
+
+Null Hypothesis: all variants have the same CTR.
+
+Alternative Hypothesis: there is a difference in the CTR for the different variants.
+
+
+*How do we decide who's the best?
 
 -Click-through rate (CTR) for the homepage.
+
 -Drop-off rate for the category pages.
+
 -Homepage-return rate for the category pages.
+
+
 
